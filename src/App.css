@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", "Helvetica Neue",
+    Helvetica, Arial, sans-serif;
+  background-color: #fff;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+}
+
+.controls {
+  position: fixed;
+  bottom: 3.8%;
+  left: 50%;
+  background: white;
+  opacity: 1;
+  transform: translateX(-50%);
+  transition: opacity ease-in-out 0.2s;
+  box-shadow: 0 30px 40px 0 rgba(16, 36, 94, 0.2);
+  border-radius: 4px;
+  min-width: 240px;
+}
+.controls button {
+  width: 80px;
+  height: 44px;
+  background: white;
+  border: 0;
+  font: inherit;
+  font-size: 0.9em;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  outline: 0;
+}
+
+.controls button:hover {
+  color: blue;
+}
+
+.wrapper {
+  /* background-image: url(./logo.png); */
+  background-size: 50%;
+  background-position: 20px 20px;
+  background-repeat: no-repeat;
+}
+
+.grid {
+  width: 10px;
+  height: 10px;
+  text-align: center;
+  font-size: 8px;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+
+.grid:hover {
+  border-color: pink !important;
+  background-color: pink !important;
+}
